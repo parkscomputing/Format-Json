@@ -5,12 +5,12 @@ The cmdlet takes a JSON string or file path as input and formats it with pretty-
 If the input is a file path, the file content is read and treated as a JSON string. 
 The formatted JSON is then written to the pipeline.
 
-##Syntax
+## Syntax
 ```
 Format-Json [[-InputObject] <String>] [<CommonParameters>]
 ```
 
-##Examples
+## Examples
 ```powershell
 Format-Json '{"name": "John", "age": 30}'
 ```
